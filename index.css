@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+}
+.btn > img {
+  width: 5rem;
+  border: 3px solid #fff;
+  margin: 5px;
+}
+.btn > .playerChoise:active {
+  opacity: 0;
+}
+
+.btn > .playerChoise:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.choise {
+  display: flex;
+}
+
+.round {
+  font-size: 80px;
+  font-weight: 900;
+  color: #00c197;
+  margin-top: -15px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.oppNumber,
+.plyNumber {
+  padding: 0 28px;
+  font-size: 120px;
+  color: #636363;
+  width: 8rem;
+  text-align: center;
+}
+
+div.name {
+  margin: 8px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #636363;
+  color: #fff;
+}
+
+.statusPlayer {
+  border: 10px solid #636363;
+  color: #00c197;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+  padding: 6px;
+  text-align: center;
+}
+
+.active {
+  background-color: red;
+}
+
+.player > .choise > .btn:active {
+  background-color: #00c197;
+}
