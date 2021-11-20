@@ -52,6 +52,8 @@ const playGame = (e) => {
   } else if (ply === 3 && opp === 1) {
     opponent++;
     statusPlayer.innerHTML = "RƏQİB QAZANDI";
+    plyNumber.innerHTML = player;
+    oppNumber.innerHTML = opponent;
   }
 };
 
