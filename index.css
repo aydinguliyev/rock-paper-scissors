@@ -39,7 +39,7 @@
 .oppNumber,
 .plyNumber {
   padding: 0 28px;
-  font-size: 120px;
+  font-size: 73px;
   color: #636363;
   width: 8rem;
   text-align: center;
@@ -54,7 +54,8 @@ div.name {
   color: #fff;
 }
 
-.statusPlayer {
+.statusPlayer,
+.game {
   border: 10px solid #636363;
   color: #00c197;
   font-size: 20px;
