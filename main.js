@@ -9,7 +9,9 @@ const statusPlayer = document.querySelector(".statusPlayer");
 const game = document.querySelector(".game");
 
 const enterName = prompt("Enter Your Name");
-playerName[1].innerHTML = enterName;
+enterName === ""
+  ? (playerName[1].innerHTML = "Player")
+  : (playerName[1].innerHTML = enterName);
 
 const getRandomInt = (max, min) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
